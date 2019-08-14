@@ -6,7 +6,7 @@ Using this powerful little tool will map out for you all Events in any browser y
 
 ## installation
 
-`npm install map-events --save`
+`npm install px-map-events --save`
 
 ## usage
 
