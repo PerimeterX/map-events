@@ -4,7 +4,7 @@ This directory is for those who will use their Browser's Developer Tools' "Conso
 
 This is the [manually-run script](https://raw.githubusercontent.com/alexwiegmanpx/map-events/master/Web%20Browser%20Developer%20Tools/Browser%20DevTools-Console%20Snippet.js) I have created to obtain a JSON of all JS Browser Events from all Objects in all Browsers.
 
-## usage
+## Usage
 
 Open your Developer Tools in your browser, copy the contents of [the script](https://raw.githubusercontent.com/alexwiegmanpx/map-events/master/Web%20Browser%20Developer%20Tools/Browser%20DevTools-Console%20Snippet.js), and paste the results from your clipboard (already on the clipboard thanks to the script's logic), into your favorite IDE.
 
