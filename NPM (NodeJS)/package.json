@@ -1,26 +1,36 @@
 {
   "name": "map-events",
-  "version": "1.0.1",
-  "description": "all types of events mapped out completely cross browsers",
+  "version": "1.1.0",
+  "description": "All JS events mapped out, across every browser.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "npm install eslint && eslint --ext .js --color",
+    "jshint": "npm install jshint && jshint *.js || true",
+    "echo": "echo \"Success: Results of Lints in Above Lines\" && exit 0",
+    "clear": "clear",
+    "test": "npm run eslint && npm run jshint",
+    "test-verbose": "npm run eslint && npm run jshint && npm run echo",
+    "test-silent": "npm run eslint && npm run jshint && npm run echo && npm run clear"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0",
+    "eslint": "^7.12.1",
+    "jshint": "^2.12.0",
+    "prettier": "2.0.5",
+    "px-map-events": "^1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perimeterx/map-events.git"
+    "url": "git+https://github.com/alexwiegmanpx/map-events.git"
   },
   "keywords": [
     "event",
     "map"
   ],
-  "author": "galpx",
+  "author": "galpx, alexwiegmanpx",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perimeterx/map-events/issues"
+    "url": "https://github.com/alexwiegmanpx/map-events/issues"
   },
-  "homepage": "https://perimeterx.github.io/map-events-website/",
-  "dependencies": {
-    "px-map-events": "^1.0.0"
-  }
+  "homepage": "https://perimeterx.github.io/map-events-website/"
 }

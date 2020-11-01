@@ -66,7 +66,7 @@ function hasOwnProperty() {
 }
 
 //show the result in your browser
-console.log(JSON.stringify(getEvents()))
+console.log(JSON.stringify(getEvents()));
 
 //Copy a JSON of the output of all events in the browser
 var consoleOutput = JSON.stringify(getEvents());
