@@ -19,7 +19,7 @@ In addition to technical contributions (above),
 - useful formatting changes, 
 - documentation for the purpose of the site, on the site (and probably other documentation)
 - and of course, additions to the [data](https://github.com/alexwiegmanpx/map-events-website/blob/master/data.json) from your browser on your OS
-of the [webpage](https://github.com/alexwiegmanpx/map-events-website) are all encouraged. Please clone and make PRs to either my version of the repository
+of the [webpage](https://github.com/alexwiegmanpx/map-events-website) are all encouraged. Please clone and make PRs to either [my version of the repository](https://github.com/alexwiegmanpx/map-events-website) or the [official PX version](https://github.com/PerimeterX/map-events-website)
 
 ## List of Contributors
 
