@@ -2,11 +2,11 @@
 
 This directory is for those who will use their Browser's Developer Tools' "Console" section to run this.
 
-This is the [manually-run script](Web%20Browser%20Developer%20Tools/Output%20Browser%20Events%20from%20all%20Prototype%20Objects%20for%20Every%20Browser.js) I have created to obtain a JSON of all JS Browser Events from all Objects in all Browsers.
+This is the [manually-run script](Output%20Browser%20Events%20from%20all%20Prototype%20Objects%20for%20Every%20Browser.js) I have created to obtain a JSON of all JS Browser Events from all Objects in all Browsers.
 
 ## Usage
 
-Open your Developer Tools in your browser, copy the contents of [the script](Web%20Browser%20Developer%20Tools/Output%20Browser%20Events%20from%20all%20Prototype%20Objects%20for%20Every%20Browser.js), and paste the results from your clipboard (already on the clipboard thanks to the script's logic), into your favorite IDE.
+Open your Developer Tools in your browser, copy the contents of [the script](Output%20Browser%20Events%20from%20all%20Prototype%20Objects%20for%20Every%20Browser.js), and paste the results from your clipboard (already on the clipboard thanks to the script's logic), into your favorite IDE.
 
 From there, I suggest something like [VSCode](https://code.visualstudio.com/) with any tooling or extension to [make JSON pretty](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) to further format and organise the results in preparation to add it to [the Website's Datafile](https://github.com/alexwiegmanpx/map-events-website/blob/master/data.json).
 
