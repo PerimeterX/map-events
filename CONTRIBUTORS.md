@@ -11,15 +11,19 @@ Also, the working extraction script is not automatic and does not run every time
 
 Contributing to the [JSON](https://github.com/perimeterx/map-events-website/blob/master/data.json) could help a lot with maintaining the map and keeping it as updated and as accurate as possible.
 
-## Other non-technical contributions encouraged! [Translations, Formatting, Documentation, and more!]
+## Translations, Formatting, Documentation(, and more!)
 
-In addition to technical contributions (above),
+Other non-technical contributions are encouraged!
+
+In addition to technical contributions (such as the above),
 
 - contributions to the translations, 
 - useful formatting changes, 
-- documentation for the purpose of the site, on the site (and probably other documentation)
+- documentation for the purpose of the site, on the site (and probably other documentation),
 - and of course, additions to the [data](https://github.com/alexwiegmanpx/map-events-website/blob/master/data.json) from your browser on your OS
-of the [webpage](https://github.com/alexwiegmanpx/map-events-website) are all encouraged. Please clone and make PRs to either [my version of the repository](https://github.com/alexwiegmanpx/map-events-website) or the [official PX version](https://github.com/PerimeterX/map-events-website)
+of the [webpage](https://github.com/alexwiegmanpx/map-events-website) are all encouraged.
+
+Please clone and make PRs to either [my version of the repository](https://github.com/alexwiegmanpx/map-events-website) or the [official PX version](https://github.com/PerimeterX/map-events-website).
 
 ## List of Contributors
 
