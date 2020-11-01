@@ -41,7 +41,7 @@ Internal Contributors:
 
 Community Contributors:
 
-- [Vasilii Kovalev](https://github.com/vasilii-kovalev) for a good refernece in his [config.yml](https://github.com/vasilii-kovalev/games_world/blob/f910483ccd33a6cf58765f70ee6f6823239011e1/.circleci/config.yml) on how to CircleCI test correctly.
+- [Vasilii Kovalev](https://github.com/vasilii-kovalev) for a good refernece in his [config.yml](https://github.com/vasilii-kovalev/games_world/blob/f910483ccd33a6cf58765f70ee6f6823239011e1/.circleci/config.yml) for how to CircleCI test correctly.
 
 (Your name here 🙂)
 
