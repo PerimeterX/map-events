@@ -6,7 +6,9 @@
 
 "Events mapped out [completely](https://perimeterx.github.io/map-events-website/) - across browsers
 
-Using this powerful little tool will map out for you all Events in any browser you'd wish to execute it on." -- [Gal Weizman](https://weizman.github.io/)
+Using this powerful little tool will map out for you all Events in any browser you'd wish to execute it on."
+
+-- [Gal Weizman](https://weizman.github.io/)
 
 Which is a great way to describe this project in a couple of lines, but does obscure some of the potential benefits of this project at its full potential.
 
