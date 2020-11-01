@@ -27,14 +27,22 @@ Please clone and make PRs to either [my version of the repository](https://githu
 
 ## List of Contributors
 
-Original Author: [Gal Weizman](https://github.com/weizman) | [PerimeterX](https://github.com/galpx)
+Original Author: 
 
-Currently Maintaining Contributor: [Alex T.W.](https://github.com/madicetea) | [PerimeterX](https://github.com/alexwiegmanpx)
+- [Gal Weizman](https://github.com/weizman) | [PerimeterX](https://github.com/galpx)
+
+Currently Maintaining Contributor: 
+
+- [Alex T.W.](https://github.com/madicetea) | [PerimeterX](https://github.com/alexwiegmanpx)
 
 Internal Contributors:
+
 (Your name here 🙂)
 
 Community Contributors:
+
+- [Vasilii Kovalev](https://github.com/vasilii-kovalev) for a good refernece in his [config.yml](https://github.com/vasilii-kovalev/games_world/blob/f910483ccd33a6cf58765f70ee6f6823239011e1/.circleci/config.yml) on how to CircleCI test correctly.
+
 (Your name here 🙂)
 
 Everyone's work is highly appreciated. Thank you!
