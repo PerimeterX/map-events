@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/perimeterx/map-events/issues"
   },
-  "homepage": "https://perimeterx.github.io/map-events-website/"
+  "homepage": "https://perimeterx.github.io/map-events-website/",
+  "dependencies": {
+    "px-map-events": "^1.0.0"
+  }
 }
