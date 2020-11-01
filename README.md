@@ -1,5 +1,9 @@
 # Map All the Browsers! (JS Event-Handlers)
 
+[![DeepScan grade](https://deepscan.io/api/teams/11583/projects/14477/branches/270681/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=11583&pid=14477&bid=270681)
+![CircleCI](https://img.shields.io/circleci/build/github/alexwiegmanpx/map-events/development?token=df2fa5d58721a5670674b82841a4c459ec94506e)
+![Depfu](https://img.shields.io/depfu/alexwiegmanpx/map-events?style=plastic)
+
 ![https://knowyourmeme.com/memes/all-the-things](https://raw.githubusercontent.com/alexwiegmanpx/map-events-website/master/src/img/Map%20All%20Event%20Handlers%20Meme.jpg)
 
 ## Description
