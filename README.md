@@ -20,7 +20,7 @@ Gal's logic allows anyone to run a tiny amount of code within their developer to
 
 Ultimately, Gal, myself, and probably a lot of you out (maybe) work for a security organisation.
 
-And while this research project is conducted on behalf of PerimeterX, as an organisation we support Open Source knowledge for the community at large (security, developers, ecosystem, students, etc.)
+And while this research project is conducted on behalf of PerimeterX, as an organisation [we support Open Source knowledge for the community at large](https://www.globenewswire.com/news-release/2020/10/06/2104341/0/en/Snyk-and-PerimeterX-Partner-to-Address-Open-Source-JavaScript-Risk-Increasingly-Common-in-Web-Applications.html) (security, developers, ecosystem, students, etc.)
 
 And even if you don't, you probably at least write (a lot more than I do!) JavaScript programs as part of your daily work (perhaps you are a front-end developer or a server-side Database [tools] developer -- JS is also found in MongoDB etc.)
 
