@@ -1,7 +1,7 @@
 # Contributors
 
 ## Technical
-In addition to this project there is a [website](https://perimeterx.github.io/map-events-website/) that should show the events map of every (os + browser) combination that ever existed.
+In addition to this project there is a [website](https://perimeterx.github.io/map-events-website/) that should show the events map of every (OS + Browser) combination that ever existed.
 
 In reality however, it shows most of the existing combinations, but not all of them.
 
@@ -28,6 +28,7 @@ Please clone and make PRs to either [my version of the repository](https://githu
 ## List of Contributors
 
 Original Author: [Gal Weizman](https://github.com/weizman) | [PerimeterX](https://github.com/galpx)
+
 Currently Maintaining Contributor: [Alex T.W.](https://github.com/madicetea) | [PerimeterX](https://github.com/alexwiegmanpx)
 
 Internal Contributors:
