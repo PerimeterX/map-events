@@ -1,6 +1,6 @@
-# Map All the Browsers! (Event-Handlers)
+# Map All the Browsers! (JS Event-Handlers)
 
-[(https://raw.githubusercontent.com/alexwiegmanpx/map-events-website/master/src/img/Map%20All%20Event%20Handlers%20Meme.jpg)](https://knowyourmeme.com/memes/all-the-things)
+![https://knowyourmeme.com/memes/all-the-things](https://raw.githubusercontent.com/alexwiegmanpx/map-events-website/master/src/img/Map%20All%20Event%20Handlers%20Meme.jpg)
 
 ## Description
 
