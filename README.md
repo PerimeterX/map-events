@@ -22,7 +22,7 @@ Ultimately, Gal, myself, and probably a lot of you out (maybe) work for a securi
 
 And while this research project is conducted on behalf of PerimeterX, as an organisation [we support Open Source knowledge for the community at large](https://www.globenewswire.com/news-release/2020/10/06/2104341/0/en/Snyk-and-PerimeterX-Partner-to-Address-Open-Source-JavaScript-Risk-Increasingly-Common-in-Web-Applications.html) (security, developers, ecosystem, students, etc.)
 
-And even if you don't, you probably at least write (a lot more than I do!) JavaScript programs as part of your daily work (perhaps you are a front-end developer or a server-side Database [tools] developer -- JS is also found in MongoDB etc.)
+And even if you aren't a member of the Security Team at your organisation, you the reader (looking at this repository), probably at least (have an interest to) write (a lot more than I would!) JavaScript programs as part of your daily work (perhaps you are a front-end developer or a server-side Database [tools] developer -- JS is also found in MongoDB etc.)
 
 Either way, one of the tenets of security applies rather well here -- the first step of knowing vulnerabilities is knowing the threat landscape. And having every event from every object is a good first step in that direction.
 
