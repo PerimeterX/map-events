@@ -13,8 +13,8 @@
     "test-silent": "npm run eslint && npm run jshint && npm run echo && npm run clear"
   },
   "devDependencies": {
-    "@types/node": "^15.12.4",
-    "eslint": "^7.30.0",
+    "@types/node": "^15.14.0",
+    "eslint": "^7.31.0",
     "jshint": "^2.13.0",
     "prettier": "2.3.2",
     "px-map-events": "^1.0.0"
