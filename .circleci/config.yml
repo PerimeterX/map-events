@@ -1,0 +1,19 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@3.0.1
+jobs:
+  build_and_test:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - node/install-packages:
+          app-dir: ~/project/NPM (NodeJS)
+      - run:
+          name: Run linters and tests
+          command: cd "NPM (NodeJS)" && npm run test-verbose
+workflows:
+  build_and_test:
+    jobs:
+      - build_and_test

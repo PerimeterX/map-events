@@ -1,127 +1,37 @@
-# map-events
+# Map All the Browsers! (JS Event-Handlers)
 
-Events mapped out [completely](https://perimeterx.github.io/map-events-website/) - cross browsers
+[![DeepScan grade](https://deepscan.io/api/teams/11583/projects/14477/branches/270636/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=11583&pid=14477&bid=270636)
+![CircleCI](https://img.shields.io/circleci/build/github/alexwiegmanpx/map-events?token=df2fa5d58721a5670674b82841a4c459ec94506e)
+![Depfu](https://img.shields.io/depfu/alexwiegmanpx/map-events?style=plastic)
 
-Using this powerful little tool will map out for you all Events in any browser you'd wish to execute it on.
+![https://knowyourmeme.com/memes/all-the-things](https://raw.githubusercontent.com/alexwiegmanpx/map-events-website/master/src/img/Map%20All%20Event%20Handlers%20Meme.jpg)
 
-## installation
+## Description
 
-`npm install px-map-events --save`
+"Events mapped out [completely](https://perimeterx.github.io/map-events-website/) - across browsers
 
-## usage
+Using this powerful little tool will map out for you all Events in any browser you'd wish to execute it on."
 
-```javascript
-const getEventsMap = require('map-events');
+-- [Gal Weizman](https://weizman.github.io/)
 
-const EventsMap = getEventsMap();
-```
+Which is a great way to describe this project in a couple of lines, but does obscure some of the potential benefits of this project at its full potential.
 
-## output
+The Mozilla Developer Network has, over the years, maintained [somewhat of a dictionary](https://developer.mozilla.org/en-US/docs/Web/API/Window) of the JavaScript events available in stable releases of web browsers, and some which are still being proposed via an RFC. 
 
-a map of all events in the browser in the following format:
+That said, what if you wanted to know more about every event in every browser (including, of course, those not maintained by / following Mozilla's open-source standards)? (It's unlikely, but let's consider a case of an undocumented object or event, such as those that might appear as experimental within alpha, beta, or nightly versions of browsers.)
 
-```javascript
-{
-    'OBJECT': [
-        'EVENT1',
-        'EVENT2',
-        'EVENT3'
-    ]
-}
-```
+Gal's logic allows anyone to run a tiny amount of code within their developer tools' console window, and your output will be a very, very long list of every object and event of each object to be supported by that browser, since it will recursively query for events from every object present in the browser (assuming all objects are some prototype of the window object, as our focus is _browser_ events).
 
-# example
+## So why do this?
 
-```javascript
-const getEventsMap = require('map-events');
+Ultimately, Gal, myself, and probably a lot of you out (maybe) work for a security organisation.
 
-const webSocketEventsMap = getEventsMap('WebSocket');
+And while this research project is conducted on behalf of PerimeterX, as an organisation [we support Open Source knowledge for the community at large](https://www.globenewswire.com/news-release/2020/10/06/2104341/0/en/Snyk-and-PerimeterX-Partner-to-Address-Open-Source-JavaScript-Risk-Increasingly-Common-in-Web-Applications.html) (security, developers, ecosystem, students, etc.)
 
-(webSocketEventsMap == {
-  "WebSocket": [
-    "open",
-    "error",
-    "close",
-    "message"
-  ] // results in true
-});
-```
+And even if you aren't a member of the Security Team at your organisation, you the reader (looking at this repository), probably at least (have an interest to) write (a lot more than I would!) JavaScript programs as part of your daily work (perhaps you are a front-end developer or a server-side Database [tools] developer -- JS is also found in MongoDB etc.)
 
-here's an example of how to register with your own listener to every event that exists on `window`!
+Either way, one of the tenets of security applies rather well here -- the first step of knowing vulnerabilities is knowing the threat landscape. And having every event from every object is a good first step in that direction.
 
-```javascript
+That said, while the above is interesting, this project also has a second meaning for me. It is incentive for me to find the entire dictionary of events to search for in MDN and learn more about web programming in JS.
 
-const windowEventsMap = getEventsMap('window')['window'];
-
-for (let i = 0; i < windowEventsMap.length; i++) {
-  const event = windowEventsMap[i];
-  window[event] = (event) => { console.log(event) });
-}
-```
-
-## options
-
-1. `filter` (first optional argument)
-
-allows you to pass a string that must exist within the object in order for it to make it to the final result map:
-
-```javascript
-const getEventsMap = require('map-events');
-
-const EventsMap = getEventsMap('*'); // will return a non-filtered map
-const EventsMap = getEventsMap('HTML'); // will return a map that only contains objects that contain the string 'HTML' (such as 'HTMLBodyElement')
-const EventsMap = getEventsMap('Doc'); // will return a map that only contains objects that contain the string 'Doc' (such as 'Document')
-```
-
-default value: `'*'`
-
-2. `hasOwnProperty` (second optional argument)
-
-allows you to pass a boolean that indicates whether iterated object must has iterated property as its own property or not:
-
-```javascript
-const getEventsMap = require('map-events');
-
-const EventsMap = getEventsMap('*', true); // will return a map with objects and  events properties that are the object's own properties
-const EventsMap = getEventsMap('*', false); // will return a map with objects and  events properties - whether the properties are the object's own properties or not
-```
-
-default value: `true`
-
-3. `noEmptyArrays` (third optional argument)
-
-allows you to pass a boolean that indicates whether final result object should contain objects that have zero events or not:
-
-```javascript
-const getEventsMap = require('map-events');
-
-const EventsMap = getEventsMap('*', true, true); // will return a map with objects and events properties only if the object even has any events
-const EventsMap = getEventsMap('*', true, false); // will return a map with objects and events properties whether the object has any events or not
-```
-
-default value: `false`
-
-4. `debug` (fourth optional argument)
-
-allows you to pass a boolean that indicates whether to run module in debug mode or not. debug mode just logs errors in case any are thrown:
-
-```javascript
-const getEventsMap = require('map-events');
-
-const EventsMap = getEventsMap('*', true, true, true); // will run in debug mode
-const EventsMap = getEventsMap('*', true, false, false); // will not run in debug mode
-```
-
-default value: `false`
-
-## contribution
-
-in addition to this project there is a [website](https://perimeterx.github.io/map-events-website/) that
-should show the events map of every (os + browser) combination that ever existed.
-in reality however, it shows most of the existing combinations, but not all of them.
-the maps were extracted using every existing combination in [browserstack](https://browserstack.com), but even
-in browserstack many automatic combinations have failed.
-also, the extraction script is not automatic and does not run every
-time there's a new browser/os.
-contributing to the [JSON](https://github.com/perimeterx/map-events-website/blob/master/data.json) could help a lot with maintaining the map and keeping it as updated and as accurate as possible.
-highly appreciated!
+So eventually, whether it be documented notes in a separate directory, or some form of usage 'man' messages that can be displayed when a specific (prototype and?) event is passed as an argument, I will attempt to build something to support a learner's purpose as well.
